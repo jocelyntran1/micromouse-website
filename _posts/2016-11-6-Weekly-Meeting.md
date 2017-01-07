@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Weekly Meeting
+title: Weekly Meeting #1: Circuit Board Design
 ---
 
 Started making schematics on Eagle
