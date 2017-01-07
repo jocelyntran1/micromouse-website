@@ -15,7 +15,13 @@ body{
 
 h2{
     color: #333;
-    margin: 20px;    
+    margin: 20px;
+    text-align: center;
+    font-weight: 900;  
+    font-size: 2em;  
+    text-transform:uppercase;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    letter-spacing: 0.25em;    
 }
 
 p{
@@ -33,6 +39,7 @@ p{
     position: fixed;
     top: 0;
     width: 100%;
+    letter-spacing: 0.25em;
 }
 
 .navbar li {
