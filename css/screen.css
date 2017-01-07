@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 html{
-    background: #f4f4f4;
     height: 100%;
 }
 
@@ -11,6 +10,8 @@ body{
     color: #646464;
     margin: 0;
     padding-top: 40px;
+    background: #f4f4f4;
+    height: 100%;
 }
 
 h2{
