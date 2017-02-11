@@ -6,21 +6,33 @@
    <title>{{ page.title }}</title>
    <link rel="stylesheet" href="/micromouse-website/css/screen.css" type="text/css" media="screen, projection" />
    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
-<body>
-    <div id="wrapper">
-        <div id="header">
-        	<div class="navbar">
-        		<ul>
-                    <li><a href="/micromouse-website">Home</a></li>
-        			<li><a href="/micromouse-website/about">About</a></li>
-        			<li><a href="/micromouse-website/contact">Contact</a></li>
-        			<li><a href="/micromouse-website/resources">Resources</a></li>
-        		</ul>
-        	</div>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ </head>
+ <body>
+  <div id="wrapper">
+    <div id="header">
+     <div class="navbar">
+      <ul>
+        <li><a href="/micromouse-website">Home</a></li>
+        <li><a href="/micromouse-website/about">About</a></li>
+        <li><a href="/micromouse-website/contact">Contact</a></li>
+        <li><a href="/micromouse-website/resources">Resources</a></li>
+      </ul>
+    </div>
 
-        </div>
-        {{ content }}
+    <section class="jumbotron">
+      <div class="container">
+       <div class="row text-center">  
+       <h2>Homemade Goods</h2>
+         <h3>This Year's Best</h3>
+         <a class="btn btn-primary" href="#" role="button">See all</a>
+       </div>
+     </div>
+   </section>
+
+
+ </div>
+ {{ content }}
     </div>
 </body>
 </html>
